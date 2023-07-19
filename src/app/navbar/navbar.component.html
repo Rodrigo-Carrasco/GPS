@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg bg-secondary-subtle">
+      <a class="navbar-brand" style="margin-left: 1cm;" href="#">
+        <img width="50" alt="Escudo" src="../../assets/Escudo.png">
+      </a>
+      <div>
+        <h1 id="titulo">Universidad del Bío-Bío</h1>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a [routerLink]="['home']" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['docentes']" class="nav-link" href="#">Docentes</a>
+          </li>
+
+        </ul>
+
+        <form class="d-flex" role="search">
+          <a href="/login" class="btn btn-primary" type="submit" style="margin-right: 1cm;">Iniciar sesión</a>
+        </form>
+      </div>
+  </nav>

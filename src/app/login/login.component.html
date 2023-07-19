@@ -1,0 +1,33 @@
+<div class="content">
+
+  <ul class="nav nav-pills" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="/login">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="pill" href="/login">Register</a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="login" class="container tab-pane active">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Correo</label>
+          <input type="email" class="form-control" is-valid id="exampleFormControlInput1" placeholder="admin@ubiobio.cl">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Contraseña</label>
+          <input type="password" class="form-control" is-valid id="exampleInputPassword1" placeholder="* * * * * * *">
+          <small id="emailHelp" class="form-text text-muted">No compartas tu contraseña.</small>
+        </div>
+        <a href="/home" class="btn btn-primary" style="border-radius: 15px;
+        width: 100px;
+        margin: 0 auto;
+        float: right;">Ingresar</a>
+      </form>
+    </div>
+  </div>
+
+</div>
